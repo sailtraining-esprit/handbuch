@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Esprit Betriebssicherheitshandbuch'
-copyright = '2019, Jugendkutterwerk e.V.'
+copyright = '2021, Jugendkutterwerk e.V.'
 author = 'Jugendkutterwerk e.V.'
 
 # The short X.Y version
-version = '2016, Nr.6'
+version = '2021, work-in-progress'
 # The full version, including alpha/beta/rc tags
-release = '2016, Nr.6'
+release = '2021, work-in-progress'
 
 
 # -- General configuration ---------------------------------------------------
