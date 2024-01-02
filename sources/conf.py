@@ -40,6 +40,7 @@ release = '2021, work-in-progress'
 # ones.
 extensions = [
     'sphinx.ext.todo',
+    'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -83,7 +84,6 @@ html_theme = "sphinx_rtd_theme"
 #
 # html_theme_options = {}
 html_theme_options = {
-    'canonical_url': 'https://handbuch.sailtraining-esprit.de/',
     'logo_only': False,
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
@@ -96,12 +96,13 @@ html_theme_options = {
     'titles_only': False
 }
 
+html_favicon = '_static/favicon.ico'
+html_baseurl: 'https://handbuch.sailtraining-esprit.de/'
+
 # Zusätzliche manuelle css-Anpassungen für's Esprit-Design, solange die
 # Option 'style_nav_header_background' vom rtd_theme nicht funktioniert.
 # Siehe entsprechende css-Datei unter _static/custom.css
-html_context = {
-    'css_files': ['_static/custom.css']
-}
+html_css_files = ['_static/custom.css']
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
